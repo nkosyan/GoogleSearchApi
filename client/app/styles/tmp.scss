@@ -1,0 +1,31 @@
+.main {
+  width: 560px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.search-bar input {
+  width: 250px;
+}
+.search-bar button {
+  margin-left: 10px;
+}
+.searched-item {
+  margin-top: 20px;
+  display: inline-block;
+}
+  .searched-item > div:first-of-type {
+    font-size: 14px;
+    color: green;
+    margin-top: 3px;
+  }
+  .searched-item > div:nth-of-type(2) {
+    font-size: 14px;
+    float: left;
+    margin-top: 10px;
+  }
+  .searched-item img {
+      float: left;
+      width: 72px;
+      height: 39px;
+      margin-right: 7px;
+  }
