@@ -28,7 +28,7 @@ class SearchBar extends React.PureComponent  {
   render() {
     return <div className="search-bar">
             <input type="search"
-                  placeholder="search test"
+                  placeholder="search test test webhook test"
                   ref={(input) => { this.nameInput = input; }}
                   value={this.state.value}
                   onChange={this.handleChange}
