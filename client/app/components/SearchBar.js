@@ -33,7 +33,7 @@ class SearchBar extends React.PureComponent  {
                   value={this.state.value}
                   onChange={this.handleChange}
                   onKeyDown={this.keyPress} />
-            <button onClick={this.handleClick}>Search</button>
+            <button onClick={this.handleClick}>Search TEST</button>
           </div>
   }
 }
